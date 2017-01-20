@@ -50,7 +50,7 @@ class IS(object):
     Note: sending of packets is not supported yet
 
     """
-    def __init__(self, callsign, passwd="-1", host="rotate.aprs.net", port=10152, skip_login=False):
+    def __init__(self, callsign, passwd="-1", host="norway.aprs2.net", port=14580, skip_login=False):
         """
         callsign        - used when login in
         passwd          - for verification, or "-1" if only listening
